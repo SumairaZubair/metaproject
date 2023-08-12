@@ -1,0 +1,16 @@
+.slider-container {
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr); /* Display 4 images in a row */
+    gap: 10px; /* Adjust the gap between images */
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}

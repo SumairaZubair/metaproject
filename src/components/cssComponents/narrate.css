@@ -1,0 +1,141 @@
+.nMain{
+/* margin-top: 19px; */
+    /* font-size: larger; */
+    background-color: rgb(20, 14, 14)
+}
+.h1{
+    /* padding-top: 5%; */
+}
+h1{
+    /* margin-top: 10px; */
+    font-family:cursive;
+    line-height: 40.63px;
+    letter-spacing: 9%;
+    font-weight: 400;
+    padding: 5%;
+    text-align: start;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.narration{
+    display: flex;
+    justify-content: space-evenly;
+}
+.narrateText{
+    padding: 47px;
+    /* width: 627.97px; */
+    /* height: 400px; */
+    /* background-color: aquamarine; */
+    background-image: url('../../Assest/vector.png');
+    background-repeat: no-repeat;
+}
+.narrateText p{
+    text-align: start;
+    color: white;
+    padding: 30px;
+    width: 519.66px;
+}
+.wooder{
+    /* /* width: 100%; */
+    height: 265.31px; 
+    /* background-color: aqua; */
+    /* background-image: url('../../Assest/wood.png'); */
+    background-repeat: no-repeat;
+    /* flex-direction: column; */
+    /* margin: 20px; */
+    /* margin: 30px; */
+}
+.woodimg{
+    /* background-color: aqua; */
+    width: 1290px;
+    /* height: auto; */
+    height: 197.31px;
+    background-image: url('../../Assest/wood.png');
+    background-repeat: no-repeat;
+    /* padding: 80px; */
+    margin-left: 7%;
+/* padding-bottom: 30px; */
+    /* margin-bottom: 30px; */
+}
+.woodimg h1{
+    /* font-family: Walter Turncoat; */
+padding-top: 50px;
+padding-left: 50px;
+padding-bottom: 30px;
+
+}
+.woodimg p{
+    color: white;
+    text-align: start;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+@media (max-width:768px){
+
+    .narration{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .narrateText{
+        padding: 47px;
+        width: 350.97px;
+        height: auto;
+        flex-wrap: wrap;
+        /* height: 400px; */
+        /* background-color: aquamarine; */
+        background-image: url('../../Assest/vector.png');
+        background-repeat: no-repeat;
+    }
+    .narrateText p{
+        text-align: start;
+        font-size: 14px;
+        color: white;
+        padding: 5px;
+        width: 310.66px;
+        height: auto;
+    }
+    .narrateImg img{
+        width: 350px;
+    }
+    .wooder{
+        /* /* width: 100%; */
+        height: 350.31px; 
+        /* padding: 100px; */
+        /* background-color: aqua; */
+        /* background-image: url('../../Assest/wood.png'); */
+        background-repeat: no-repeat;
+        /* flex-direction: column; */
+        /* margin: 20px; */
+        /* margin: 30px; */
+    }
+    .woodimg{
+        /* background-color: aqua; */
+        width: 400px;
+        flex-wrap: wrap;
+        /* height: auto; */
+        /* height: 550px; */
+        background-image: url('../../Assest/wood.png');
+        background-repeat: no-repeat;
+        /* padding: 80px; */display: flex;
+        
+        align-items: center;
+        margin-left: 10px;
+    /* padding-bottom: 30px; */
+        /* margin-bottom: 30px; */
+    }
+    .woodimg h1{
+        /* font-family: Walter Turncoat; */
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    
+    }
+    .woodimg p{
+        color: white;
+        font-size: 12px;
+        text-align: start;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+}
