@@ -138,24 +138,48 @@ const PictureSlider = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000, // 2 seconds per slide
-        // speed: 8000,
         pauseOnHover: true,
-        infinite: true,
-        cssEase: 'linear',
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     };
 
     return (
         <div className="slider-container">
-            <Slider {...settings}>
-                {images.map((image, index) => (
-                    <div key={index} className="slide">
-                        <img src={image} alt={`Image ${index + 1}`} />
-                    </div>
-                ))}
-            </Slider>
+            <div className="row">
+                <Slider {...settings}>
+                    {images.slice(0, images.length / 2).map((image, index) => (
+                        <div key={index} className="slide">
+                            <img src={image} alt={`Image ${index + 1}`} />
+                        </div>
+                    ))}
+                </Slider>
+            </div>
+            <div className="row">
+                <Slider {...settings}>
+                    {images.slice(images.length / 2).map((image, index) => (
+                        <div key={index} className="slide">
+                            <img src={image} alt={`Image ${index + 1}`} />
+                        </div>
+                    ))}
+                </Slider>
+            </div>
         </div>
     );
 }
+
 
 
 
