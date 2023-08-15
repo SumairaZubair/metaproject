@@ -35,36 +35,27 @@ h1{
     padding: 30px;
     width: 519.66px;
 }
-.wooder{
-    /* /* width: 100%; */
-    height: 265.31px; 
-    /* background-color: aqua; */
-    /* background-image: url('../../Assest/wood.png'); */
+.wooder {
+    height: 265.31px;
     background-repeat: no-repeat;
-    /* flex-direction: column; */
-    /* margin: 20px; */
-    /* margin: 30px; */
 }
-.woodimg{
-    /* background-color: aqua; */
+
+/* Default styles for the 'woodimg' element within the 'wooder' section */
+.woodimg {
     width: 1290px;
-    /* height: auto; */
     height: 197.31px;
     background-image: url('../../Assest/wood.png');
     background-repeat: no-repeat;
-    /* padding: 80px; */
     margin-left: 7%;
-/* padding-bottom: 30px; */
-    /* margin-bottom: 30px; */
 }
-.woodimg h1{
-    /* font-family: Walter Turncoat; */
-padding-top: 50px;
-padding-left: 50px;
-padding-bottom: 30px;
 
+.woodimg h1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
 }
-.woodimg p{
+
+.woodimg p {
     color: white;
     text-align: start;
     padding-left: 50px;
@@ -98,44 +89,40 @@ padding-bottom: 30px;
     .narrateImg img{
         width: 350px;
     }
-    .wooder{
-        /* /* width: 100%; */
-        height: 350.31px; 
-        /* padding: 100px; */
-        /* background-color: aqua; */
-        /* background-image: url('../../Assest/wood.png'); */
-        background-repeat: no-repeat;
-        /* flex-direction: column; */
-        /* margin: 20px; */
-        /* margin: 30px; */
+    .wooder {
+        height: auto; /* Adjust the height as needed */
     }
-    .woodimg{
-        /* background-color: aqua; */
-        width: 400px;
-        flex-wrap: wrap;
-        /* height: auto; */
-        /* height: 550px; */
-        background-image: url('../../Assest/wood.png');
-        background-repeat: no-repeat;
-        /* padding: 80px; */display: flex;
-        
-        align-items: center;
-        margin-left: 10px;
-    /* padding-bottom: 30px; */
-        /* margin-bottom: 30px; */
+
+    .woodimg {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 50px;
+        padding: 20px; /* Adjust padding as needed */
+        background-image: url('../../Assest/media.png'); /* Change the background image */
     }
-    .woodimg h1{
-        /* font-family: Walter Turncoat; */
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    
-    }
-    .woodimg p{
-        color: white;
-        font-size: 12px;
-        text-align: start;
-        padding-left: 30px;
+
+    .woodimg h1 {
+        padding-top: 20px;
+        padding-left: 20px;
         padding-bottom: 20px;
+
+        font-size: 25px;
     }
+
+    .woodimg p {
+        width: 300px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
 }
+    /* Default styles for the 'wooder' section */
+
+
+/* Media query for screens with a maximum width of 768px */
+
+

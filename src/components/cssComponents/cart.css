@@ -1,0 +1,296 @@
+.background{
+    height: auto;
+    padding-top: 30px;
+    background-color: rgb(27, 23, 23);
+
+}
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background: url('../../Assest/picss.png'), lightgray 50% / cover no-repeat;
+}
+.cartt{
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 2px;
+background: #060606;
+
+}
+.mint{
+    margin-top: 10px;
+   text-align: center;
+}
+.balance{
+    width: 500px;
+    align-items: center;
+    /* margin-left: 50px; */
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(34, 34, 34);
+}
+.my{
+    color: #FFF;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+/* margin-left: 20px; */
+line-height: normal;
+letter-spacing: 1.68px;
+text-transform: capitalize;
+}
+.my span{
+    color: #FFF;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+
+line-height: normal;
+letter-spacing: 1.68px;
+text-transform: capitalize;
+}
+.wallet{
+    color: #C69141;
+font-family: Mariupol;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.68px;
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+.border{
+    border-bottom: 9px solid rgb(121, 42, 42);
+}
+.amountSec{
+    width: 400px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.amount{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    /* padding-bottom: 30px; */
+    border-bottom: 2px solid rgb(64, 63, 63);
+    color: white;
+}
+.buy{
+    color: #FFF;
+text-align: justify;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.5px; /* 121.875% */
+letter-spacing: 0.8px;
+}
+.btnn{
+    width: 103.456px;
+height: 44.738px;
+flex-shrink: 0;
+background: none;
+color: white;
+border: 1px solid #282625;
+}
+.max{
+    color: #F0B750;
+text-align: justify;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.5px; /* 121.875% */
+letter-spacing: 0.8px;
+}
+.content{
+    width: 400px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    width: 500px;
+    height: 90px;
+    display: flex;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid rgb(64, 63, 63);
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.token{
+    color: #FFF;
+text-align: justify;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.5px; /* 121.875% */
+letter-spacing: 0.8px;
+}
+.eth{
+    color: #FFF;
+text-align: justify;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.5px; /* 121.875% */
+letter-spacing: 0.8px;
+}
+.total{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid pink;s */
+    padding-top: 30px;
+    
+}
+.totalPrice{
+    width: 400px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    /* font-size: ; */
+}
+.tp{
+    color: #FFF;
+text-align: justify;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.5px; /* 121.875% */
+letter-spacing: 0.8px;
+}
+.box{
+    width: 400px;
+height: 56.979px;
+border-radius: 2px;
+margin-top: 30px;
+color: white;
+padding-top: 20px;
+text-align: center;
+background: #C69141;
+color: #FFF;
+font-family: Mariupol;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.92px;
+text-transform: uppercase;
+}
+@media (max-width:768px){
+    .cartt{
+        width: 400px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 2px;
+    background: #060606;
+}
+.balance{
+    width: 400px;
+    align-items: center;
+    /* margin-left: 50px; */
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(34, 34, 34);
+}
+.my{
+    
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1.48px;
+}
+.my span{
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 1.48px;
+
+}
+.wallet{
+    color: #C69141;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 1.48px;
+}
+.amount{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    /* padding-bottom: 30px; */
+    border-bottom: 2px solid rgb(64, 63, 63);
+    color: white;
+}
+.amountSec{
+    width: 320px;
+}
+.btnn{
+    width: 70px;
+height: 30px;
+flex-shrink: 0;
+background: none;
+color: white;
+border: 1px solid #282625;
+}
+.content{
+    width: 320px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    width: 400px;
+    height: 90px;
+    display: flex;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid rgb(64, 63, 63);
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.total{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid pink;s */
+    padding-top: 30px;
+    
+}
+.totalPrice{
+    width: 320px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    /* font-size: ; */
+}
+}

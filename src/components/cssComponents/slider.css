@@ -1,27 +1,60 @@
 .slider-container {
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .row {
-    width: 50%;
+    width: 100%;
     /* display: flex; */
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     /* gap: 10px; */
 }
 
-.slide {
-    flex: 0 0 50%; /* Divide the width into 4 columns (4 images in a row) */
+.slider-container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+}
+
+.slide {
+   
+        flex: 0 0 auto; /* Prevent slides from growing to fill available space */
+    
+    display: flex;
+    justify-content: center;
+    margin: 0; /* Remove any margin */
+}
+
+.img {
+    width: 50%;
+    max-width: 200px; /* Adjust this as needed */
+}
+
+.slide {
+    width: 30%;
+    margin: 0px;
 }
 
 .slide img {
-    max-width: 100%;
-    height: auto;
+    width: 200px;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+@media (max-width: 768px) {
+    .slider-container {
+        flex-direction: row; /* Change to row for smaller screens */
+        flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+    }
+
+    .slide {
+        width: 50%; /* Show two images per row on smaller screens */
+        box-sizing: border-box;
+        padding: 5px; /* Add some spacing between images */
+    }
 }
 

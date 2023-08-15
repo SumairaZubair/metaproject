@@ -1,6 +1,9 @@
 import '../cssComponents/narrate.css'
 // import group from '../../Assest/vector.png'
 import animalimg from '../../Assest/Image.png'
+import ProgressBar from '../last/ProgressBar'
+import Slider from 'react-slick'
+import PictureSlider from '../Third/Slider'
 const Narrate = () => {
     return (
         <div className="nMain">
@@ -26,6 +29,8 @@ const Narrate = () => {
                     <p>The creators of everything. What do they now you ask? Well, deep in the forest in the leafy sanctuary with scenic splendour and luxurious club amenities, our Moose are chilling in the country club and enjoying its rustic elegance. Drinking booze, smoking cigars, and enjoying the fruits of their labor. Each one out of the 10 Moose is 1/1, super rare, and extremely unique.</p>
                 </div>
             </div>
+          <PictureSlider/>
+            <ProgressBar/>
         </div>
     )
 }

@@ -1,0 +1,60 @@
+
+.img-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    background-color: rgb(27, 23, 23);
+}
+.brown{
+    width: 720px;
+    height: 719px;
+    /* margin-top: 30px; */
+  background-image: url('../../Assest/bgbrown.png');
+}
+.imagess{
+    width: 720px;
+    height: 719px;
+    background-image: url('../../Assest/picss.png');
+}
+.points{
+   width: 600px;
+   text-align: start;
+   margin: 60px;
+    /* border:  2px solid pink; */
+}
+.brownHead{
+    padding-top: 30px;
+    font-size: 37px;
+}.points p{
+     padding-top: 10px;
+     padding-left: 30px;
+     font-size: 15px;
+     color: white;
+     line-height: 22px; /* 137.5% */
+letter-spacing: 0.8px;
+}
+@media (max-width:768px){
+
+    .imagess{
+        display: none;
+    }
+    .brown{
+        width: 400px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .points{
+       width: 370px;
+       margin: 20px;
+    
+    }
+    .points p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: white;
+    line-height: 20px; /* 137.5% */
+letter-spacing: 0.6px;
+}
+}
