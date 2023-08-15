@@ -1,115 +1,94 @@
+import React from 'react'
 import '../cssComponents/progress.css'
-const ProgressBar =()=>{
-    return(
-        <div>
-    <div className='co0ntainerr'>
-            <h1 className='proof'>Meta Moose future-proof Roadmap.</h1>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Meta Moose introduction to the world.</p>
-        <p className='para'>Socials created, they are hiding no more! Meta Moose discord group created - It will be the core of the Moose ecosystem led by non-less than Commanders themselves. Volume up, we are goingfrom whisper to a roar.</p>
-      <div className='percentage'>
-      <div className='bar'>
-            <div className='percen'>
-            </div>
-            <span className='span'>0%</span>
-        </div>
+function ProgressBar() {
+  return (
+    <div className='road'>
+      {/* <div className="work"> */}
+        <h1>META MOOSE FUTURE-PROOF ROADMAP</h1>
+            <div className="work">
+              <div className='part'>
+              <h2>Meta Moose introduction to the world. </h2>
+              <p>Socials created, they are hiding no more! Meta Moose discord group created - It will be the core of the Moose ecosystem led by non-less than Commanders themselves. We will use our marketing skills and connections to spread the word about Meta Moose. Volume up, we are going from whisper to a roar.</p>
       </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Meta Moose Giveaway.</p>
-        <p className='para'>Those that successfully solve the Meta Moose riddles will be entered into a series of raffles in which we will be giving away free NFTs. When it rains it pours!</p>
-        <div className='bar'>
-            <div className='percen2'>
-            </div>
-            <span className='span'>10%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Meta Moose Public sale starts!</p>
-        <p className='para'>Those that successfully solve the Meta Moose riddles will be entered into a series of raffles in which we will be giving away free NFTs. When it rains it pours!</p>
-        <div className='bar'>
-            <div className='percen3'>
-            </div>
-            <span className='span'>20%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Raffle with 3 free NFTs.</p>
-        <p className='para'>On 30% minted we will be hosting a raffle with 3 free NFTs for all our holders.</p>
-        <div className='bar'>
-            <div className='percen4'>
-            </div>
-            <span className='span'>30%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Merch Giveaway.</p>
-        <p className='para'>On 50% minted we will be showing you a sneak peek of our merch. We will be giving away 5 surprise products from our merch to the 5 random holders.</p>
-        <div className='bar'>
-            <div className='percen5'>
-            </div>
-            <span className='span'>50%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>ETH Giveaway.</p>
-        <p className='para'>On 70% minted we will be giving away 1ETH to the random holder as well as 7 NFTs raffle to all our discord members. Moose crew will be supported. Always.</p>
-        <div className='bar'>
-            <div className='percen7'>
-            </div>
-            <span className='span'>70%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Sold out!</p>
-        <p className='para'>Surprise! Biggest riddle of them all.</p>
-        <div className='bar'>
-            <div className='percen8'>
-            </div>
-            <span className='span8'>80%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Exclusive Meta Moose Country Club.</p>
-        <p className='para'>Exclusive Meta Moose Country Club. will officially open its doors in the Metaverse. At the club, Moose owners will engage in serious business discussions, drink booze, chill next to the fireplace, smoke cigars, and enjoy. Meta Moose Utility will </p>
-        <div className='bar'>
-            <div className='percen9'>
-            </div>
-            <span className='span'>90%</span>
-        </div>
-             </div>
-        </div>
-        <div className='roadMap'>
-             <div className='barText'>
-      <p className='giveaway'>Meta Moose revolutionary game!</p>
-        <p className='para'>Socials created, they are hiding no more! Meta Moose discord group created - It will be the core of the Moose ecosystem led by non-less than Commanders themselves. We will use our marketing skills and connections to spread the word about Meta Moose.</p>
-       
-        <div className='bar'>
-        
-            <div className='percen10'>
-            </div>
-            <p className='span10'>100%</p>
-        </div>
-             </div>
-        </div>
-     </div>
-        </div>
-    )
+      <div className='progess'>
+        <div className='progesscolor'></div> 0%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>Meta Moose Public sale starts!</h2>
+              <p>Those who have proven themselves worthy will be placed on a prestigious list and receive their Meta Moose first! </p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor10'></div> 10%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>Raffle with 3 free NFTs.</h2>
+              <p>On 30% minted we will be hosting a raffle with 3 free NFTs for all our holders.</p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor20'></div> 20%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>Merch Giveaway.</h2>
+              <p>On 50% minted we will be showing you a sneak peek of our merch. We will be giving away 5 surprise products from our merch to the 5 random holders.</p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor30'></div> 30%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>ETH Giveaway.</h2>
+              <p>On 70% minted we will be giving away 1ETH to the random holder as well as 7 NFTs raffle to all our discord members. Moose crew will be supported. Always.</p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor50'> </div>50%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>Sold out!. </h2>
+              <p>Surprise! Biggest riddle of them all.</p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor70'> </div>70%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>Exclusive Meta Moose Country Club.</h2>
+              <p>Exclusive Meta Moose Country Club. will officially open its doors in the Metaverse. At the club, Moose owners will engage in serious business discussions, drink booze, chill next to the fireplace, smoke cigars, and enjoy. Meta Moose Utility will change the NFT space and will be the core of our ecosystem. </p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor80'></div> 80%
+      </div>
+      </div>
+            <div className="work">
+              <div className='part'>
+              <h2>Meta Moose revolutionary game!</h2>
+              <p>Meta Moose revolutionary play to earn game is launched. Meta Moose ecosystem circle is closed. Meta Moose Merch store drop, an IRL club, prestige parties, and many more surprises await Moose owners on a journey to conquer the Universe!</p>
+      </div>
+      <div className='progess'>
+        <div className='progesscolor90'> </div>90%
+      </div>
+      </div>
+      <div className="work">
+              <div className='part'>
+              <h2>Meta Moose Giveaway.  </h2>
+<p>Those that successfully solve the Meta Moose riddles will be entered into a series of raffles in which we will be giving away free NFTs. When it rains it pours!
+</p>
+      </div><div className='progess'>
+        <div className='progesscolor100'></div> 100%
+      </div>
+      </div>
+
+    </div>
+  )
 }
 
 export default ProgressBar
