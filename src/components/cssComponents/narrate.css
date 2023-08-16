@@ -96,6 +96,7 @@ h1{
         /* background-color: aquamarine; */
         background-image: url('../../Assest/mediapara.png');
         background-repeat: no-repeat;
+        /* margin-left: 20px; */
     }
     .narrateText p{
         text-align: start;
@@ -119,7 +120,8 @@ h1{
         /* margin-left: 20px; */
         padding-bottom: 50px;
         padding: 20px; 
-        padding-left: 10px;
+        padding-left: 5px;
+        margin-left: 15px;
         background-image: url('../../Assest/media.png'); /* Change the background image */
     }
 
