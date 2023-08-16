@@ -5,7 +5,7 @@ const Cart =()=>{
         <div className='background'>
           <div className="pictures">
            <div className='cartt'>
-            <h1 className='mint'>Mint your mooose.</h1>
+            <h1 className='mint'>Mint your moose.</h1>
             <div className='balance'>
                 <p className='my'>My balance: <span>0 ETH</span></p>
                 <p className='wallet'>connect wallet</p>
