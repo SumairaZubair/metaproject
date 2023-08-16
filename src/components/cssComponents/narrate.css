@@ -119,17 +119,60 @@ h1{
     .narrateImg img{
         width: 100%;
     }
+
+
+
+
+
+
+/* Add this CSS code to your existing styles */
+
+@media (max-width: 768px) {
     .wooder {
+        justify-content: center; /* Center align vertically */
         height: auto; /* Adjust the height as needed */
+        padding: 40px; /* Add padding for spacing */
     }
 
     .woodimg {
-        /* width: 100%;
-        height: auto; */
+        width: 100%;
+        height: auto;
+        background-image: url('../../Assest/wood.png');
+        background-repeat: no-repeat;
+        padding: 20px; /* Add padding for spacing */
+        padding-bottom: 60px;
+    }
+
+    .woodimg h1 {
+        padding-top: 10px; /* Adjust padding as needed */
+        padding-left: 0; /* Remove left padding */
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 25px; /* Center align the text */
+    }
+
+    .woodimg p {
+        font-size: 11px;
+        padding-left: 10px; /* Add padding for spacing */
+        text-align: center; /* Center align the text */
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+    /* .wooder {
+        height: auto; 
+    }
+
+    .woodimg {
+        
         width: 100%;
         height: auto;
        
-        /* margin-left: 20px; */
         padding-bottom: 50px;
         padding: 20px; 
         padding-left: 1px;
@@ -137,29 +180,24 @@ h1{
         background-image: url('../../Assest/media.png'); /* Change the background image */
     }
 
-    /* .meet{
-        text-align: center;
-        font-size: 25px;
-    } */
-    .meet {
-        /* ... existing styles ... */
+   
+    /* .meet {
+       
         text-align: center;
         font-size: 25px;
     }
     .woodimg p {
-        /* width: 300px; */
-        
-        /* padding-bottom: 40px; */
+       
         display: flex;
         flex-wrap: wrap;
         font-size: 12px;
 
-        width: 100%; /* Adjust the width as needed */
+        width: 100%; 
         padding-bottom: 20px;
         
-        justify-content: center; /* Center align text */
-    }
-}
+        justify-content: center; 
+    } */ 
+
 
 
 
