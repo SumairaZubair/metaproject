@@ -1,7 +1,7 @@
 // import hero from '../../Assest/hero1.png'
 import '../cssComponents/nav.css'
 import hero from '../../Assest/Hero image (2).png'
-import arrow from '../../Assest/arrow.png'
+// import arrow from '../../Assest/arrow.png'
 const NavText = ()=>{
     return(
         <div>
@@ -26,9 +26,10 @@ const NavText = ()=>{
                     <img src={hero} alt='hero' className='herro'/>
                 </div>
             </div>
-            <div>
+            <div className='more'>
                 <p className='scroll'>scroll for more</p>
-                <img src={arrow}/>
+                {/* <img className='arrr' src={arrow}/> */}
+                <p className='emoji'>∨</p>
             </div>
         </div>
     )

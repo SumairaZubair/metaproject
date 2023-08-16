@@ -13,11 +13,12 @@ const Cart =()=>{
             </div>
             <div className='amount'>
               <div className='amountSec'> 
-                 <p className='buy'>Amount to buy</p>
-                <p>-</p>
+                 <span className='buy'>Amount to buy</span>
+                <span>-</span>
                 <button className='btnn'>2</button>
-                <p>+</p>
-                <p className='max'>Max</p></div>
+                <span>+</span>
+                <span className='max'>Max</span>
+                </div>
             </div>
             <div className='price'>
                <div className='content'>

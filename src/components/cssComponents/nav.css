@@ -1,37 +1,84 @@
-*{
+* h1{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   font-family:  Walter Turncoat;
     /* background-image: url('../../Assest/bgimg.png'); */
 /* max-width: 100%; */
 }
 .main{
     max-width: 100%;
     background-image: url('../../Assest/bgimg.png');
+    /* filter: opacity(0.67); */
     background-color: rgba(181, 173, 173, 0.869); 
-
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* color: #FFFFFF; */
    /* opacity: 0.9; */
  } 
-/* .main {
-    position: relative;
-}
 
-.main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../Assest/bgimg.png');
-    background-color: rgba(0, 0, 0, 0.94); /* Dark color overlay with 0.5 opacity */
-    /* z-index: -1; /* Put the pseudo-element behind the content */
-/* }  */
 
 .main {
     /* position: relative; */
     background-image: url('../../Assest/bgimg.png');
 }
+/* Style for the close button */
+.close-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Make it round */
+    width: 30px;
+    height: 30px;
+}
+
+.close-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* ... Existing styles ... */
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .logo img {
+        margin: 10px auto; /* Center the logo */
+    }
+
+    .text {
+        margin-left: 0; /* Reset margin */
+    }
+
+    .text.active {
+        display: flex; /* Show the text menu on small screens */
+        flex-direction: column;
+        position: relative; /* Needed for positioning the close button */
+    }
+
+    
+
+    .close-button {
+        /* ... Existing styles ... */
+        top: 0;
+        right: 0;
+    }
+
+    .hamburger {
+        align-self: flex-end;
+    }
+}
+
 
 
 
@@ -41,11 +88,9 @@
 
 .nav{
     height: auto;
-    /* background-image: url('../../Assest/bgimg.png'); */
-    /* background-color: rgba(43, 43, 43, 0.415); */
+    
     display: flex;
-    /* margin-left: 10%; */
-    /* flex-direction: row; */
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -145,9 +190,16 @@ li{
     width: 700px;
     border: 2 px solid white;
 }
+
 .scroll{
+    text-align: center;
     color: white;
     margin-top: 50px;
+}
+.emoji{
+    text-align: center;
+    color: white;
+    font-size: 12px;
 }
 @media (max-width:768px){
     ul img{
@@ -197,6 +249,7 @@ li{
     .text{
         display: none;
     }
+    
     .logo img{
         align-items: flex-start;
 /* margin-left: 40px; */

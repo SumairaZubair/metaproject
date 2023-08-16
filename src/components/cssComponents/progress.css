@@ -1,6 +1,7 @@
 body{
     background-color: black;
 }
+
 .road{
     margin: 5%;
     /* border: 2px solid yellow; */
@@ -76,14 +77,14 @@ background-color: #F0B750;
 }
 .progesscolor70{
     height: 100%;
-    background-color: #F0B750;
+    background-color: #be8a2a;
     margin-right: 10px;
     width: 70%;
 }
 .progesscolor80{
     height: 100%;
     margin-right: 10px;
-    background-color: #F0B750;
+    background-color: #b48227;
     width: 80%;
 }
 .progesscolor90{
@@ -109,10 +110,17 @@ background-color: #F0B750;
 }
 .part {
  padding: 5%;
+ color: white;
    
 }
 @media (max-width:700px) {
     .work{
         margin-top: 7%;
+    }
+    .part h2{
+        font-size: 20px;
+    }
+    .part p{
+        font-size: 16px;
     }
 }

@@ -7,32 +7,32 @@ const Team =()=>{
            <div className="ourTeam">
                <div className="info">
                 <h1 className='team'>TEAM.</h1>
-                <div className='follow'><p>Following our tremendous ambitions and plowing our wave through the vast universe of the NFT, we wanted to establish a practical, sustainable, and strong membership network, so that our community can embrace all of the benefits of being a member of our exclusive club. Meet the crew behind Meta Moose!</p></div>
+                <div className='follow'><p>Following our tremendous ambitions and plowing our wave through the vast universe of the NFT, we wanted to establish a practical, sustainable, and strong membership networkk, so that our community can embrace all of the benefits of being a member of our exclusive club. Meet the crew behind Meta Moose!</p></div>
                <div className='detailss'>
                 <div className='teamCard'>
                     <img src={require('../../Assest/circle1.png')} alt='cirlce images'/>
                     <p className='name'>Gigi</p>
-                    <p className='work'>Project Manager & Coordinator</p>
+                    <p className='workk'>Project Manager & Coordinator</p>
                 </div>
                 <div className='teamCard'>
                 <img src={require('../../Assest/circle2.png')} alt='cirlce images'/>
                     <p className='name' >Dr Moose</p>
-                    <p className='work'>Project Manager & Marketing Lead</p>
+                    <p className='workk'>Project Manager & Marketing Lead</p>
                 </div>
                 <div className='teamCard'>
                 <img src={require('../../Assest/circle3.png')} alt='cirlce images'/>
                     <p className='name'>Jackson</p>
-                    <p className='work'>Blockchain Advisor & Business Developer</p>
+                    <p className='workk'>Blockchain Advisor & Business Developer</p>
                 </div>
                 <div className='teamCard'>
                 <img src={require('../../Assest/circle1.png')} alt='cirlce images'/>
                      <p className='name'>Hot Moose</p>
-                     <p className='work'>Lead Developer & Tech</p>
+                     <p className='workk'>Lead Developer & Tech</p>
                 </div>
                 <div className='teamCard'>
                 <img src={require('../../Assest/circle5.png')} alt='cirlce images'/>
                      <p className='name'>Nana Famoose</p>
-                     <p className='work'>Art Director & Creator of Moose</p>
+                     <p className='workk'>Art Director & Creator of Moose</p>
                 </div>
 
                </div>
@@ -115,6 +115,13 @@ const Team =()=>{
                </div>
                </div>
                {/* <ProgressBar/> */}
+               <div className='footer'>
+               <div>
+                <img src={require('../../Assest/Group.png')}/>
+                <img src={require('../../Assest/Group1.png')}/>
+                <p className='ppp'>@2021 meta Moose</p>
+               </div>
+               </div>
            </div>
         </div>
     )

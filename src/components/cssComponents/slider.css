@@ -8,6 +8,7 @@
 
 .row {
     width: 100%;
+    direction: ltr;
     /* display: flex; */
     flex-direction: row;
     /* justify-content: space-evenly; */

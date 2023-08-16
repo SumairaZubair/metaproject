@@ -10,6 +10,7 @@
 }
 .info{
     width: 90%;
+    height: auto;
     border: 2px solid  #F0B750;
     text-align: center;
     display: flex;
@@ -35,17 +36,18 @@
 }
 .detailss{
     width: 89%;
-    margin-top: 30px;
+    margin-top: 10px;
     /* border:  2px solid red; */
     display: flex;
     justify-content: space-evenly;
 }
 .teamCard{
     width: 220px;
-    height: 320px;
+    height: 330px;
+    margin-bottom: 20px;
     /* border:  2px solid pink; */
 }
-.work{
+.workk{
     color: rgb(100, 97, 97);
       
     font-size: 15px;
@@ -112,6 +114,15 @@
     padding: 10px;
     margin-bottom: 1%;
 }
+.footer img{
+    width: 20px;
+    padding-left: 40px;
+   
+}
+.ppp{
+    color: white;
+    margin-bottom: 30px;
+}
 @media (max-width:768px){
     .askQuestions{
         width: 100%;
@@ -134,10 +145,32 @@
     .ask h1{
         font-size: 24px;
     }
+    .ans{
+        width: 345px;
+        font-size: 15px;
+    }
+    .qContent{
+        width: auto;
+        border-bottom: 1px solid #F0B750;
+        padding: 10px;
+        margin-bottom: 1%;
+    }
+    
     .ques{
         padding-bottom: 10px;
         font-size: 15px;
         color: #F0B750;
+    }
+    .teamCard{
+        width: 220px;
+        height: 320px;
+        margin-bottom: 20px;
+        /* border:  2px solid pink; */
+    }
+    .workk{
+        color: rgb(100, 97, 97);
+          /* border: 2px solid black; */
+        font-size: 15px;
     }
 }
 

@@ -38,27 +38,35 @@ h1{
 .wooder {
     height: 265.31px;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
 }
 
 /* Default styles for the 'woodimg' element within the 'wooder' section */
 .woodimg {
     width: 1290px;
     height: 197.31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-image: url('../../Assest/wood.png');
     background-repeat: no-repeat;
-    margin-left: 7%;
+    /* margin-left: 5%; */
 }
 
 .woodimg h1 {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .woodimg p {
     color: white;
     text-align: start;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-bottom: 60px;
 }
 @media (max-width:768px){
@@ -68,23 +76,35 @@ h1{
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+    .h1{
+        /* margin-top: 10px; */
+        font-family:cursive;
+        line-height: 40.63px;
+        letter-spacing: 9%;
+        font-weight: 400;
+        padding: 5%;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
     .narrateText{
         padding: 47px;
-        width: 350.97px;
+        width: 330.97px;
         height: auto;
         flex-wrap: wrap;
         /* height: 400px; */
         /* background-color: aquamarine; */
-        background-image: url('../../Assest/vector.png');
+        background-image: url('../../Assest/mediapara.png');
         background-repeat: no-repeat;
     }
     .narrateText p{
         text-align: start;
         font-size: 14px;
         color: white;
-        padding: 5px;
-        width: 310.66px;
+        padding: 3px;
+        width: 280.66px;
         height: auto;
+        padding-top: 50px;
     }
     .narrateImg img{
         width: 350px;
@@ -96,17 +116,15 @@ h1{
     .woodimg {
         width: 100%;
         height: auto;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         padding-bottom: 50px;
-        padding: 20px; /* Adjust padding as needed */
+        padding: 20px; 
+        padding-left: 10px;
         background-image: url('../../Assest/media.png'); /* Change the background image */
     }
 
-    .woodimg h1 {
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-
+    .meet{
+        text-align: center;
         font-size: 25px;
     }
 

@@ -25,7 +25,7 @@ const Narrate = () => {
             <div className='wooder'>
 
                 <div className='woodimg'>
-                    <h1>Meet the Commanders!</h1>
+                    <h1 className='meet'>Meet the Commanders!</h1>
                     <p>The creators of everything. What do they now you ask? Well, deep in the forest in the leafy sanctuary with scenic splendour and luxurious club amenities, our Moose are chilling in the country club and enjoying its rustic elegance. Drinking booze, smoking cigars, and enjoying the fruits of their labor. Each one out of the 10 Moose is 1/1, super rare, and extremely unique.</p>
                 </div>
             </div>
