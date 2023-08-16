@@ -148,7 +148,7 @@ h1{
         padding-left: 0; /* Remove left padding */
         padding-bottom: 10px;
         text-align: center;
-        /* font-size: 22px; Center align the text */
+        font-size: 20px; 
     }
 
     .woodimg p {
