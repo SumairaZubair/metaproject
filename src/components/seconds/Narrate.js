@@ -2,8 +2,9 @@ import '../cssComponents/narrate.css'
 // import group from '../../Assest/vector.png'
 import animalimg from '../../Assest/Image.png'
 import ProgressBar from '../last/ProgressBar'
-import Slider from 'react-slick'
+// import Slider from 'react-slick'
 import PictureSlider from '../Third/Slider'
+// import group from '../../Assest'
 const Narrate = () => {
     return (
         <div className="nMain">
