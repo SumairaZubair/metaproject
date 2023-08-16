@@ -19,6 +19,8 @@
     align-items: center;
 }
 .info h1{
+   font-family:  Walter Turncoat;
+
     text-align: center;
     font-size: 37px;
 }
@@ -87,6 +89,8 @@
 .ask h1{
     color: white;
     font-size: 35px;
+   font-family:  Walter Turncoat;
+
 }
 .questionss{
     width: 95%;
