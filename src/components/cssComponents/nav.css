@@ -2,38 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   /* font-family:  Walter Turncoat; */
-    /* background-image: url('../../Assest/bgimg.png'); */
-/* max-width: 100%; */
+  
 }
 .main{
     max-width: 100%;
     background-image: url('../../Assest/bgimg.png');
-   
-    /* filter: opacity(0.67); */
-    /* background-color: rgba(181, 173, 173, 0.869);  */
  background-repeat: no-repeat;
  background-size: cover;
-   /* opacity: 0.9; */
+  
  } 
-/* .main {
-    position: relative;
-}
 
-.main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../Assest/bgimg.png');
-    background-color: rgba(0, 0, 0, 0.94); /* Dark color overlay with 0.5 opacity */
-    /* z-index: -1; /* Put the pseudo-element behind the content */
-/* }  */
 
 .main {
-    /* position: relative; */
+    
     background-image: url('../../Assest/bgimg.png');
 }
 
@@ -44,32 +25,22 @@
 
 
 .nav{
-    
     height: auto;
-    /* background-image: url('../../Assest/bgimg.png'); */
-    /* background-color: rgba(43, 43, 43, 0.415); */
     display: flex;
-    /* margin-left: 10%; */
-    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
 }
 .text{
     margin-left: 15%;
-    /* background-color: aqua; */
 }
 .logo{
     display: flex;
-    /* margin-left: 40px; */
 }
 ul{
     list-style: none;
     display: flex;
 }
-ul img{
-    
-    /* margin-right: 10px; */
-}
+
 li{
     display: flex;
     flex-direction: row;
@@ -77,7 +48,7 @@ li{
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
-    /* gap: 10px; */
+   
 }
 .li{
     width: 20px;
@@ -92,11 +63,10 @@ li{
 }
 .heading{
     width: 450px;
-    /* height: 280px; */
-    /* border: 2px solid white; */
+    
 }
 .heading h1{
-    /* border: 3px solid red; */
+    
     color: #FFFFFF;
     font-weight: 400;
     padding: 0px;
@@ -129,9 +99,9 @@ li{
     background:none;
     color: white;
     width: 100px;
-    /* margin-left: 10px; */
+    
     border: 1px solid #8C52A8;
-    /* margin-left: 10px; */
+    
 }
 .tweet{
     padding: 10px;
@@ -139,13 +109,12 @@ li{
     color: white;
     width: 100px;
     margin-left: 20px;
-    /* background-color: #8C52A8; */
+   
     border: 1px solid #248ED4
 }
 .image{
     width: 770px;
-    /* border:  2px solid pink; */
-    /* height: 500px; */
+
 }
 .herro{
     width: 700px;
@@ -171,11 +140,11 @@ li{
     }
     .heading{
         text-align: center;
-        /* border: 2px solid red; */
+       
         
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
+      
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin: auto;
@@ -213,12 +182,284 @@ li{
     }
     .logo img{
         align-items: flex-start;
-/* margin-left: 40px; */
-        /* margin: auto; */
-        /* background-color: #8C52A8; */
-        /* margin: auto; */
+
         width: 100px;
     }
 }
 
+ 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .main {
+    max-width: 100%;
+    background-image: url('../../Assest/bgimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.text {
+    display: none;
+}
+
+.text.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.text ul {
+    list-style: none;
+}
+
+.text ul li {
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.close-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+.main {
+    max-width: 100%;
+    background-image: url('../../Assest/bgimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+}
+li{
+    margin-left: 40px;
+}
+.stack{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.logo img {
+    width: 100px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    width: 380px;
+    /* font-size: 25px; */
+    padding-top: 60px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.text ul {
+    list-style: none;
+}
+
+.text ul li {
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.close-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: space-between;
+        /* flex-direction: column; */
+    }
+ul{
+    display: block;
+}
+    .text {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 2;
+    }
+
+    .text.active {
+        transform: translateX(0);
+    }
+
+    .close-button {
+        top: 20px;
+        right: 20px;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+
+
+.hamburger .bar {
+    
+    width: 20px;
+    height: 3px;
+    margin: 2px;
+    background-color: white;
+}
