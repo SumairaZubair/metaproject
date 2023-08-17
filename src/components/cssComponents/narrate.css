@@ -131,16 +131,17 @@ h1{
     .wooder {
         justify-content: center; /* Center align vertically */
         height: auto; /* Adjust the height as needed */
-        padding: 40px; /* Add padding for spacing */
+        /* padding: 40px; Add padding for spacing */
     }
 
     .woodimg {
-        width: 100%;
+        width: 120%;
         height: auto;
         background-image: url('../../Assest/wood.png');
         background-repeat: no-repeat;
         padding: 20px; /* Add padding for spacing */
         padding-bottom: 60px;
+        margin-right: 20px;
     }
 
     .woodimg h1 {

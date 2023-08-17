@@ -1,7 +1,39 @@
 import '../cssComponents/team.css'
+import { useState } from 'react';
 // import ProgressBar from '../last/ProgressBar'
 
 const Team =()=>{
+
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const toggleAccordion = (index) => {
+        console.log('Clicked on question', index);
+        setActiveIndex(activeIndex === index ? null : index);
+      };
+  
+    const faqData = [
+      { question: "What is Meta Moose?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "What is the total supply of the Meta Moose?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "When are the presale and public sale?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "How can I buy a Moose?", 
+      answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "What is the mint price?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "When is the reveal?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "What are the royalties?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "How many Moose are reserved?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." },
+      { question: "What does the team plan to do after launch?",
+       answer: "Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse." }
+    ];
+  
+
+    
     return(
         <div>
            <div className="ourTeam">
@@ -38,7 +70,7 @@ const Team =()=>{
                </div>
                </div>
 
-               <div className='askQuestions'>
+               {/* <div className='askQuestions'>
               <div className='ask'>  <h1>Frequently Asked Questions.</h1></div>
               <div className='questionss'>
                <div className='qContent'>
@@ -113,7 +145,40 @@ const Team =()=>{
                </div>
               
                </div>
-               </div>
+               </div> */}
+
+
+
+
+<div className='askQuestions'>
+    
+        <div className='ask'>
+            
+          <h1>Frequently Asked Questions.</h1>
+        </div>
+        <div className='questionss'>
+  {faqData.map((faq, index) => (
+    <div className='qContent' key={index}>
+      <div className='arrowAns' onClick={() => toggleAccordion(index)}>
+        <p className='ques'>{faq.question}</p>
+        <img
+          className='qArrow'
+          src={activeIndex === index ? require('../../Assest/closeIcon.png') : require('../../Assest/arrowIcon.png')}
+        />
+      </div>
+      {activeIndex === index && faq.answer && <p className='ans'>{faq.answer}</p>}
+    </div>
+  ))}
+</div>
+            
+        
+          
+        
+        
+      </div>
+
+
+
                {/* <ProgressBar/> */}
                <div className='footer'>
                <div>

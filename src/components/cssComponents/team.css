@@ -127,6 +127,28 @@
     color: white;
     margin-bottom: 30px;
 }
+/* cart.css */
+/* Add or adjust your existing styles */
+
+.qContent {
+    margin-bottom: 20px;
+  }
+  
+  .qContent .ques {
+    cursor: pointer;
+    /* Add any styling you want for the question */
+  }
+  
+  .qContent .ans {
+    display: block;
+    /* Add any styling you want for the answer */
+  }
+  
+  .qContent.active .ans {
+    display: block;
+    /* Add any additional styling for the visible answer */
+  }
+  
 @media (max-width:768px){
     .askQuestions{
         width: 100%;
